@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<restaurant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.example.com/schmema.xsd" lastUpdated="2011-09-18T10:52:56+00:00">
+  <masterChef name="Mr. Big C."/>
+  <menu key="english_menu" language="en_US" defaultCurrency="USD">
+    <assets>
+      <image info="Logo" height="100" width="100" url="http://www.example.com/res/logo.png"/>
+      <image info="HiRes Logo" height="300" width="300" url="http://www.example.com/res/hires_logo.png"/>
+    </assets>
+    <item lastUpdated="2011-06-09T08:30:18-05:00" available="true">
+      <category>bread</category>
+      <category>chicken</category>
+      <category>non-veg</category>
+      <keyword>burger</keyword>
+      <keyword>chicken</keyword>
+      <assets>
+        <title>Zinger Burger</title>
+        <desc><![CDATA[The Burger we all love >_< !]]></desc>
+        <image height="100" width="100" url="http://www.example.com/res/zinger.png" info="Zinger Burger"/>
+      </assets>
+      <price currency="USD">10</price>
+      <price currency="INR">450</price>
+      <trivia></trivia>
+    </item>
+    <item lastUpdated="2011-06-09T08:30:18-05:00" available="true">
+      <category>salad</category>
+      <category>veg</category>
+      <keyword>greek</keyword>
+      <keyword>salad</keyword>
+      <assets>
+        <title>Greek Salad</title>
+        <desc><![CDATA[Chef's Favorites]]></desc>
+        <image height="100" width="100" url="http://www.example.com/res/greek.png" info="Greek Salad"/>
+      </assets>
+      <price currency="USD">20</price>
+      <price currency="INR">900</price>
+      <trivia>Loved by the Greek!</trivia>
+    </item>
+  </menu>
+</restaurant>
